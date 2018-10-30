@@ -1,0 +1,45 @@
+{
+  "name": "AJKCommon",
+  "version": "0.0.1",
+  "summary": "the frame AJKCommon is used for our company.",
+  "homepage": "http://www.alidao.com",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenxj": "hupo@aijk.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "",
+    "tag": "0.0.1"
+  },
+  "source_files": "AJKCommon_Class/**/*.{h,m}",
+  "resource_bundles": {
+    "AJKCommon": [
+      "AJKCommon_Resources/RefreshImg/*.png",
+      "AJKCommon/AJKCommon/**/*.xib"
+    ]
+  },
+  "frameworks": [
+    "CoreFoundation",
+    "Foundation",
+    "CoreGraphics",
+    "Security",
+    "UIKit"
+  ],
+  "libraries": [
+    "z.1.1.3",
+    "c++",
+    "sqlite3"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "AJKFrame": [
+
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+target 'Drying' do
+
+pod 'AFNetworking'
+#pod 'AJKCommon', :path => '/Users/yunlove/Desktop/ios-pub-master/AJKSDK/AJKCommon'
+end
